@@ -12,7 +12,7 @@
     height: 26rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url("webp/hand-left.webp");
+    background-image: url("./../webp/hand-left.webp");
     @media only screen and (max-width: 45em) {
       width: 20rem;
       height: 20rem;
@@ -28,7 +28,7 @@
     height: 45rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url("webp/hand-right.webp");
+    background-image: url("./../webp/hand-right.webp");
     z-index: -1;
 
     @media only screen and (max-width: 45em) {
@@ -229,7 +229,7 @@
         color: #6b9796;
       }
       &::before {
-        background-image: url("svg/01.svg");
+        background-image: url("./../svg/01.svg");
       }
     }
     &:nth-of-type(2) {
@@ -237,7 +237,7 @@
         color: #e6972f;
       }
       &::before {
-        background-image: url("svg/02.svg");
+        background-image: url("./../svg/02.svg");
       }
     }
     &:nth-of-type(3) {
@@ -245,7 +245,7 @@
         color: #57a3c7;
       }
       &::before {
-        background-image: url("svg/03.svg");
+        background-image: url("./../svg/03.svg");
       }
     }
     &:nth-of-type(4) {
@@ -253,7 +253,7 @@
         color: #c08af1;
       }
       &::before {
-        background-image: url("svg/04.svg");
+        background-image: url("./../svg/04.svg");
       }
     }
 
