@@ -1,0 +1,25 @@
+@import "./abstract/animations";
+@import "./abstract/variables";
+@import "./abstract/mixins";
+@import "./components/navigations";
+@import "./pages/home";
+@import "base";
+@import "typography";
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.menu-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.menu-wrapper {
+    border: solid white;
+    border-right-width: 2px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
